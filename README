@@ -1,0 +1,22 @@
+PythonChile Buildout README
+==================
+
+Getting Started
+---------------
+	
+1. Clone this package from github
+git clone git://github.com/aaguirre/PythonChile.Buildout.git
+
+2. cd PythonChile.Buildout
+
+3. Execute bootstrap. The execution of this command will create necessary folders for you buildout environemnt
+python bootstrap.py
+
+4. Run buildout ... and wait
+bin/buildout
+
+5. Start your application
+bin/serve start
+
+6. Enjoy!
+http://localhost:6543  
